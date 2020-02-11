@@ -5,7 +5,7 @@ function add(a,b) {
  
  }
 
- add(1,2)
+ add(1,2);
 
  function multiply(a,b) {
    let product = 0;
@@ -28,4 +28,28 @@ function add(a,b) {
     
     return product
   }
- multiply(1,2)
+ multiply(1,2);
+
+ function power(a,b) {
+    let pow = 1;
+    if(a < b){
+        for(let i = 1; i <= b; i++){
+          
+         // pow *= a;
+          pow = muliply(pow, a);
+    
+          
+        }
+    
+       } else {
+         for(let i = 1; i <= a; i++){
+          
+          // pow *= b;
+           pow = multiply(pow, b);
+         }  
+       }
+        
+        return pow
+ }
+ 
+ power(8, 2)

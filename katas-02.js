@@ -75,4 +75,4 @@ function add(a,b) {
      }
     
  }
- fib(3)
+ fib(8)

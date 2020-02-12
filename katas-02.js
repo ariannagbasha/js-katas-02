@@ -5,7 +5,7 @@ function add(a,b) {
  
  }
 
- add(2,4)
+ console.log(add(2,4))
 
  function multiply(a,b) {
    let product = 0;
@@ -28,7 +28,7 @@ function add(a,b) {
     
     return product
   }
- multiply(6,8)
+ console.log(multiply(6,8))
 
  function power(a,b) {
     let pow = 1;
@@ -52,7 +52,7 @@ function add(a,b) {
         return pow
  }
  
- power(3, 4)
+ console.log(power(3, 4))
 
  function factorial(a) {
      let fact = a;
@@ -63,7 +63,7 @@ function add(a,b) {
 
      return fact
  }
- factorial(4)
+ console.log(factorial(4))
 
  function fib(n) {
      if (n === 1) {
@@ -75,4 +75,4 @@ function add(a,b) {
      }
     
  }
- fib(8)
+ console.log(fib(8))
